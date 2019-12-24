@@ -1,5 +1,4 @@
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -11,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Frames_Janelas {
 
 	@Test
-	@Ignore
 	public void Frames() {  //AUTOMACAO validação de texto na pagina
     	// Caminho do ChromeDriver
     	System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
@@ -40,7 +38,7 @@ public class Frames_Janelas {
 	@Test
 	public void Janelas() {
 		// Caminho do ChromeDriver
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\eduardo.matias\\Documents\\DRIVERS\\chromedriver.exe");
 		// Instancia do driver
     	WebDriver driver = new ChromeDriver();
     	// Diretório onde está apontando o arquivo treinamento de teste via chrome browse

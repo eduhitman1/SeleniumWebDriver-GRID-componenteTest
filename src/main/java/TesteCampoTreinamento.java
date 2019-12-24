@@ -218,6 +218,7 @@ public class TesteCampoTreinamento {
 	
 	
 	@Test
+	@Ignore
 	public void LinkText() {  //AUTOMACAO por link
     	// Caminho do ChromeDriver
     	System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
@@ -238,7 +239,7 @@ public class TesteCampoTreinamento {
 	@Test
 	public void VerificacaoDeTexto() {  //AUTOMACAO validação de texto na pagina
     	// Caminho do ChromeDriver
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\eduardo.matias\\Documents\\DRIVERS\\chromedriver.exe");
 		// Instancia do driver
     	WebDriver driver = new ChromeDriver();
     	// Diretório onde está apontando o arquivo treinamento de teste via chrome browse

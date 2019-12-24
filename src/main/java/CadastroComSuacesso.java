@@ -14,7 +14,7 @@ public class CadastroComSuacesso {
 	@Test
 	public void CadastrarComSucesso() {  //AUTOMACAO validação de texto na pagina
     	// Caminho do ChromeDriver
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\eduardo.matias\\Documents\\DRIVERS\\chromedriver.exe");
 		// Instancia do driver
     	WebDriver driver = new ChromeDriver();
     	// Diretório onde está apontando o arquivo treinamento de teste via chrome browse
